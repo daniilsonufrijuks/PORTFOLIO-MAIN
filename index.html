@@ -5,26 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS file -->
+    <meta name="description" content="Daniils Onufrijuks — software engineer focused on application packaging, Windows deployment, and automation.">
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Favicon -->
     <link rel="shortcut icon" href="img/profile.jpg" type="image/x-icon">
-
-    <!-- Fontawesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <title>Daniils Onufrijuks</title>
 </head>
 
 <body>
-    <!-- Website Layout -->
-    <ul class="website_container">
-
-        <!-- Global Menu -->
+    <div class="website_container">
         <div id="global_menu_button_container">
             <p class="site_title">Daniils Onufrijuks</p>
             <i class="fa fa-bars" id="global_menu_button"></i>
@@ -35,89 +26,84 @@
                 <i class="fa fa-close" id="global_menu_close_button"></i>
                 <li><a href="index.html"><i class="fa fa-home"></i> About</a></li>
                 <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
-                <!-- <li><a href="blogs.html"><i class="fas fa-pen-nib"></i> Blogs</a></li> -->
                 <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
                 <li><a href="contact.html"><i class="fas fa-phone-square"></i> Contact</a></li>
             </div>
         </ul>
 
-        <!--x Global Menu x-->
-
-
-
-        <!-- sidebar -->
         <div class="sidebar_container">
-            <!-- Sidebar Image -->
             <div class="image">
-                <img src="img/profile.jpg" alt="John Roe">
+                <img src="img/profile.jpg" alt="Daniils Onufrijuks">
                 <div class="right_image_box"></div>
                 <div class="left_image_box"></div>
             </div>
 
-            <!-- sidebar Content -->
             <div class="sidebar_content">
-                <!-- Long name can be applied so easily -->
                 <h1>Daniils Onufrijuks</h1>
-                <p>PROGRAMMER</p>
-                <!-- Social Medias -->
+                <p>Application Packaging · Software Engineer</p>
                 <div class="social_media">
-                    <!-- <a href="https://facebook.com/alivecoder"><i class="fab fa-facebook"></i></a> -->
-                    <a href="https://github.com/daniilsonufrijuks"><i class="fab fa-github"></i></a>
-                    <!-- <a href="https://instagram.com/alivecoder"><i class="fab fa-instagram"></i></a> -->
+                    <a href="https://github.com/daniilsonufrijuks" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:donufrijuks@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
 
-            <!-- Sidebar Buttom Menu -->
             <div class="sidebar_buttom_menu" id="sidebar_buttom_menu">
                 <i class="fa fa-bars" id="sidebar_menu_icon"></i>
             </div>
 
-            <!-- Sidebar Navigation -->
             <ul class="sidebar_navigation" id="sidebar_navigation">
                 <li><a href="index.html" class="active">About</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <!-- <li><a href="blogs.html">Blogs</a></li> -->
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
-
             </ul>
-
         </div>
-        <!-- content -->
+
         <div class="content_container">
-            <!-- About Page -->
             <div class="about_page">
                 <h2 class="title">About <span>Me</span></h2>
                 <hr class="line">
-                <div class="about_content">
-                    <p class="about_text"> Hi! I am Dan and I like coding! I am student in the RVT technical colege on 
-                        the programming course. Thank you :) </p>
-                </div>
-                <div class="about_profile">
-                    <ul class="left_profile">
-                        <li><span class="profile_title">Date of Birth</span><span>May 20, 2005</span></li>
-                        <li><span class="profile_title">Gender</span><span>Male</span></li>
-                        <li><span class="profile_title">Age</span><span>18 Years Old</span></li>
-                        <li><span class="profile_title">Maritial Status</span><span>Unmarried</span></li>
-                        <li><span class="profile_title">Nationality</span><span>Latvian</span></li>
-                        <!-- <li><span class="profile_title">Religion</span><span>Hindu</span></li> -->
-                    </ul>
 
-                    <ul class="right_profile">
-                        <li><span class="profile_title">Profession</span><span>Open to suggestions</span></li>
-                        <li><span class="profile_title">Address</span><span>Latvia, Riga</span></li>
-                        <li><span class="profile_title">Contact</span><span>+371 22104399</span></li>
-                        <li><span class="profile_title">Email</span><span>monolith@gmail.com</span></li>
-                        <!-- <li><span class="profile_title">Website</span><span>mywebsite.com</span></li> -->
-                        <li><span class="profile_title">Freelance</span><span>Available</span></li>
-                    </ul>
-                </div>
+                <div class="about_intro">
+                    <div class="about_content">
+                        <p>I enjoy understanding how things work and finding ways to make them better. My background combines software development, Windows application packaging, and automation, with a focus on solving practical problems and simplifying everyday work.</p>
+                        <p>I work with PowerShell, PSAppDeployToolkit, MSI/MST, and Microsoft Intune to prepare, troubleshoot, and deploy applications. My programming skills include Python, Go, PHP, Java, C#, C++, SQL, and Vue.js, alongside HTML and CSS.</p>
+                        <p>Whether I’m developing a tool, improving a script, or investigating an installation issue, I value clear code, attention to detail, and solutions that are easy to maintain. I’m driven by curiosity and continuous learning, and I enjoy putting new knowledge into practice.</p>
+                    </div>
 
+                    <div class="stat_row">
+                        <div class="stat_card">
+                            <strong>Atea Global Services</strong>
+                            <span>Application packaging &amp; desktop deployment</span>
+                        </div>
+                        <div class="stat_card">
+                            <strong>University of Latvia</strong>
+                            <span>BSc Information Technology</span>
+                        </div>
+                        <div class="stat_card">
+                            <strong>Latvia · Hybrid</strong>
+                            <span>Packaging, Intune, automation</span>
+                        </div>
+                    </div>
+
+                    <div class="about_profile">
+                        <ul class="left_profile">
+                            <li><span class="profile_title">Based in</span><span>Riga, Latvia</span></li>
+                            <li><span class="profile_title">Focus</span><span>Packaging &amp; deployment</span></li>
+                            <li><span class="profile_title">Toolkit</span><span>VS Code, Visual Studio, Git</span></li>
+                        </ul>
+                        <ul class="right_profile">
+                            <li><span class="profile_title">Email</span><span>donufrijuks@gmail.com</span></li>
+                            <li><span class="profile_title">Phone</span><span>+371 22104399</span></li>
+                            <li><span class="profile_title">Availability</span><span>Open to collaboration</span></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-
-        <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

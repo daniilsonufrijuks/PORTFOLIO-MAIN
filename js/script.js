@@ -19,9 +19,9 @@ let global_navigation = document.getElementById('global_menu_items')
 let global_close_buttom = document.getElementById('global_menu_close_button')
 
 global_menu_buttom.addEventListener('click', function () {
-    global_navigation.style.left = "0";
+    global_navigation.classList.add('is-open');
 })
 
 global_close_buttom.addEventListener('click', function () {
-    global_navigation.style.left = "-120%";
+    global_navigation.classList.remove('is-open');
 })
